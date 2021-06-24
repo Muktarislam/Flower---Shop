@@ -1,0 +1,24 @@
+.footer-area{
+    background-color: rgb(4, 6, 8);
+    background-size: cover;
+    color: rgb(0, 0, 0)!;
+    background-image: url(../../../images/wp7529232.jpg);
+    /* opacity: 0.5; */
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: pink;
+    border-radius: 50%;
+    border: 1px solid pink;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: pink ;
+    color:rgb(218, 6, 6);
+}

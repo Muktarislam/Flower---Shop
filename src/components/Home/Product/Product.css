@@ -1,0 +1,10 @@
+.title{
+    border: 5px solid pink;
+    border-radius: 40%;
+    display:inline;
+    padding: 10px 40px;
+    font-weight: bold;
+    color: rgb(100, 96, 96);
+  
+}
+
