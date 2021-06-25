@@ -1,5 +1,5 @@
 import React from 'react';
-import flower from '../../../images/69418916-isolated-pink-flower-frame-the-top-right-corner-on-white-background.jpg'
+import logo from '../../../images/gif.gif'
 
 const HeaderMain = () => {
     // const pulse:hover = {
@@ -16,10 +16,9 @@ const HeaderMain = () => {
             <div className="col-md-4 offset-md-1">
                 <h1 style={{color :'#3a4256'}}>Your New Happyness <br/> Starts Here</h1>
                 <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse nam rem sapiente nisi est.</p>
-                <button style={{backgroundColor:"pink", padding:"8px 12px"}} type="btnk">Get Appointment</button>
-            </div>
+                <button type="button" class="btn btn-outline-warning">Appointment Here</button>            </div>
             <div className="col-md-6">
-                <img src={flower} className="img-fluid" alt=""/>
+            <img style={{float:"right", marginRight:"20px", height:"400px"}} src={logo} className="App-logo" alt="logo" />
             </div>
         </main>
     );
