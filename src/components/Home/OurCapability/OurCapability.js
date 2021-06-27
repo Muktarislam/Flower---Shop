@@ -1,7 +1,7 @@
 import React from 'react';
 import "./OurCapability.css"
-import wedding from "../../../images/7235103_preview.jpg"
-import vehicle from "../../../images/car.png"
+import wedding from "../../../images/wedding.png"
+import vehicle from "../../../images/new car.jpg"
 import others from "../../../images/others.png"
 import birthday from "../../../images/love.jpg"
 import OurCapabilityDetails from '../OurCapabilityDetails/OurCapabilityDetails';

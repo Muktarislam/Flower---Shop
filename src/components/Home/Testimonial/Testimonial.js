@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonial = (props) => {
     const {quote,name,from ,img} = props.testimonial;
     return (
-        <div style={{boxShadow:"gray 3px 3px 8px", marginLeft:"30px",marginBottom:"10px"}} className="card col-md-3">
+        <div id="Testimonial" style={{boxShadow:"gray 3px 3px 8px", marginLeft:"30px",marginBottom:"10px"}} className="card col-md-3">
             <div className="card-body">
                 <p className="card-text text-center">{quote}</p>
             </div>

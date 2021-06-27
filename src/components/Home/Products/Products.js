@@ -12,8 +12,7 @@ const Products = ({service}) => {
                 <img style={{ height: '180px' }} src={service.img} className="img-fluid" alt="" />
                 <h2>{service.Price}</h2>
                 <h4 style={{marginTop:"20px"}}>{service.title}</h4>
-                <button class="btn btn-outline-warning">Buy Now</button>
-
+                <a href="https://www.amazon.com/" target="_blank" class="btn btn-outline-primary">Order Now</a>
             </div>
         </div>
     );

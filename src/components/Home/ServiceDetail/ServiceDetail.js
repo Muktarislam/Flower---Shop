@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceDetail = ({ service }) => {
     return (
-        <div style={{marginBottom:"20px"}} className="col-md-4 text-center">
+        <div id="Service" style={{marginBottom:"80px"}} className="col-md-4 text-center">
             <img style={{height: '150px'}} src={service.img} alt="" />
             
             <h3 className="mt-3 mb-3">{service.name}</h3>
